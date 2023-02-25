@@ -1,0 +1,28 @@
+.li {
+  border: 1px solid;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 0 5px;
+  margin: 3px 0;
+  text-align: center;
+  font-size: 2rem;
+}
+.li-back {
+  background-color: rgb(206, 20, 20);
+  color: azure;
+}
+.input {
+  border: 2px solid #ce1414;
+  background-color: #e2bbbb;
+  cursor: pointer;
+  border-radius: 7px;
+  padding: 0 5px;
+  margin: 3px 0;
+  text-align: center;
+  font-size: 2rem;
+  width: 98%;
+}
+.input:active :focus {
+  text-decoration: none;
+  border: 3px solid #ce1414;
+}

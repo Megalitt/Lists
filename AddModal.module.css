@@ -1,0 +1,47 @@
+.wrap {
+  width: 100vw;
+  height: 100vh;
+  /* z-index: 10; */
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* display: none; */
+}
+.form {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.elButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.label {
+  font-size: 2rem;
+  margin: 1rem;
+}
+.input {
+  margin: 1rem;
+  height: 2rem;
+  border-radius: 8px;
+  font-size: 1.7rem;
+  background-color: rgb(239, 239, 243);
+  padding: 0.7rem;
+}
+.error {
+  color: #f70a0a;
+}
